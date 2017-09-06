@@ -5,13 +5,13 @@
 	var guesses_left = 9;	
 	var guessesSoFar = [];
 
-	document.getElementById("wins").value =wins;
-	document.getElementById("losses").value =losses;
-	document.getElementById("guesses_left").value =guesses_left;
+
 
 	document.onkeyup = function(event) {
 
-
+	document.getElementById("wins").value =wins;
+	document.getElementById("losses").value =losses;
+	document.getElementById("guesses_left").value =guesses_left;
  	
 	
  		var userInput = event.key;
